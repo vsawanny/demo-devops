@@ -12,6 +12,7 @@ pipeline {
                // git 'remote set-url origin git@github.com/vsawanny/demo-devops.git'
                 //git 'https://github.com/vsawanny/demo-devops.git'
             }
+            
         }
         stage('Build and Run Java') {
             steps {
